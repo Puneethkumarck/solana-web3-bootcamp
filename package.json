@@ -4,13 +4,15 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "start": "ts-node src/connectToSolana.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@bonfida/spl-name-service": "^3.0.2",
     "@solana-developers/helpers": "^2.5.2",
     "@solana/web3.js": "^1.95.3"
   },
