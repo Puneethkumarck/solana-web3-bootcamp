@@ -6,7 +6,7 @@ import { getDomainKeySync } from "@bonfida/spl-name-service";
  * @param cluster The cluster to connect to ('devnet', 'testnet', 'mainnet-beta').
  * @returns A Connection object.
  */
-const createConnection = (cluster: Cluster): Connection => {
+export const createConnection = (cluster: Cluster): Connection => {
   return new Connection(clusterApiUrl(cluster));
 };
 
@@ -16,7 +16,7 @@ const createConnection = (cluster: Cluster): Connection => {
  * @param publicKey The public key of the account.
  * @returns A Promise that resolves to the balance in lamports.
  */
-const getAccountBalance = async (connection: Connection, publicKey: PublicKey): Promise<number> => {
+export const getAccountBalance = async (connection: Connection, publicKey: PublicKey): Promise<number> => {
   try {
     const balance = await connection.getBalance(publicKey);
     return balance;
@@ -31,7 +31,7 @@ const getAccountBalance = async (connection: Connection, publicKey: PublicKey): 
  * @param domainName The domain name to resolve (e.g., 'toly.sol').
  * @returns A Promise that resolves to a PublicKey object.
  */
-const resolveDomainName = async (domainName: string): Promise<PublicKey> => {
+export const resolveDomainName = async (domainName: string): Promise<PublicKey> => {
   try {
     const domainKey = getDomainKeySync(domainName);
     const publicKey = domainKey.pubkey;
