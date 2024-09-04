@@ -66,7 +66,7 @@ describe('Solana Script Tests', () => {
       const publicKey = new PublicKey("CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN");
       const balance = await getAccountBalance(connection, publicKey);
       
-      // Expect the balance to be 1000000000 lamports (mocked value)
+      // Expect the balance to be 1000000000 lamports (mocked  value)
       expect(balance).toBe(1000000000);
     });
   });
