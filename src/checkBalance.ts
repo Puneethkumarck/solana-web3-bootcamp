@@ -34,7 +34,7 @@ const main = async (): Promise<void> => {
     const connection = createConnection('devnet');
 
     // Create a PublicKey object for the specified address
-    const address = new PublicKey("CenYq6bDRB7p73EjsPEpiYN7uveyPUTdXkDkgUduboaN");
+    const address = new PublicKey("CVSvjutqskYyF1hZTyZARGjGvf8d1Pp9mJMAJ8hTMHhm");
 
     // Get the balance of the account
     const balance = await getAccountBalance(connection, address);
