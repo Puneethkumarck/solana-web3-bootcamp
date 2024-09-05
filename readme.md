@@ -88,6 +88,7 @@ npx tsc transfer.ts GFC68tMFVSEodZVsCoW1Do4tAeL9j7WVVggtQXBJqSE2
 ```
 
 ![alt text](doc/logs.png)
+![alt text](doc/dev_explorer.png)
 
 ## Key Functions
 
@@ -120,3 +121,7 @@ The script logs key steps, such as:
 - Transaction progress and any errors encountered.
 
 
+## References
+[text](https://explorer.solana.com/?cluster=devnet)
+[text](https://faucet.solana.com/)
+[text](https://www.quicknode.com/guides/tags/solana)
