@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.898">
-  <testsuite name="generateKeypair" errors="0" failures="0" skipped="0" timestamp="2024-09-05T19:16:33" time="2.06" tests="1">
-    <testcase classname="generateKeypair should generate a keypair with a valid public and secret key" name="generateKeypair should generate a keypair with a valid public and secret key" time="0.079">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.469">
+  <testsuite name="Solana Script Tests" errors="0" failures="0" skipped="0" timestamp="2024-09-05T19:20:27" time="1.746" tests="4">
+    <testcase classname="Solana Script Tests createConnection should create a connection to the correct Solana cluster" name="Solana Script Tests createConnection should create a connection to the correct Solana cluster" time="0.005">
     </testcase>
-  </testsuite>
-  <testsuite name="Solana Script Tests" errors="0" failures="0" skipped="0" timestamp="2024-09-05T19:16:33" time="2.078" tests="4">
-    <testcase classname="Solana Script Tests createConnection should create a connection to the correct Solana cluster" name="Solana Script Tests createConnection should create a connection to the correct Solana cluster" time="0.006">
-    </testcase>
-    <testcase classname="Solana Script Tests resolveDomainName should resolve toly.sol to the correct public key" name="Solana Script Tests resolveDomainName should resolve toly.sol to the correct public key" time="0.001">
+    <testcase classname="Solana Script Tests resolveDomainName should resolve toly.sol to the correct public key" name="Solana Script Tests resolveDomainName should resolve toly.sol to the correct public key" time="0">
     </testcase>
     <testcase classname="Solana Script Tests resolveDomainName should throw an error for an unknown domain" name="Solana Script Tests resolveDomainName should throw an error for an unknown domain" time="0.01">
     </testcase>
-    <testcase classname="Solana Script Tests getAccountBalance should return the correct balance in lamports" name="Solana Script Tests getAccountBalance should return the correct balance in lamports" time="0.005">
+    <testcase classname="Solana Script Tests getAccountBalance should return the correct balance in lamports" name="Solana Script Tests getAccountBalance should return the correct balance in lamports" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="generateKeypair" errors="0" failures="0" skipped="0" timestamp="2024-09-05T19:20:27" time="1.763" tests="1">
+    <testcase classname="generateKeypair should generate a keypair with a valid public and secret key" name="generateKeypair should generate a keypair with a valid public and secret key" time="0.088">
     </testcase>
   </testsuite>
 </testsuites>
