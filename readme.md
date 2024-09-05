@@ -122,6 +122,6 @@ The script logs key steps, such as:
 
 
 ## References
-[text](https://explorer.solana.com/?cluster=devnet)
-[text](https://faucet.solana.com/)
-[text](https://www.quicknode.com/guides/tags/solana)
+[dev_explorer](https://explorer.solana.com/?cluster=devnet)
+[dev_faucet](https://faucet.solana.com/)
+[more_guides](https://www.quicknode.com/guides/tags/solana)
